@@ -112,4 +112,4 @@ function getRadius(magnitude) {
     return magnitude ** 2;
   }
 
-
+  
