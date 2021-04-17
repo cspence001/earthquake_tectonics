@@ -6,6 +6,7 @@ var queryUrl = "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&
 d3.json(queryUrl, function(data) {
   // Once we get a response, send the data.features object to the createFeatures function
   createFeatures(data.features);
+  console.log(data);
 });
 
 function createFeatures(earthquakeData) {
@@ -14,8 +15,8 @@ function createFeatures(earthquakeData) {
         return new L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
           radius: getRadius(feature.properties.mag),
           fillOpacity: 0.8,
-          color: getColor(feature.properties.mag),
-          fillColor: getColor(feature.properties.mag)
+          color: getColor(feature.geometry.coordinates[2]),
+          fillColor: getColor(feature.geometry.coordinates[2])
         });
     }
 
@@ -23,7 +24,7 @@ function createFeatures(earthquakeData) {
   // Give each feature a popup describing the place and time of the earthquake
     function onEachFeature(feature, layer) {
         layer.bindPopup("<h3>Location: " + feature.properties.place +
-        "</h3><hr><p>Date: " + new Date(feature.properties.time) + "</p><hr><p>Magnitude: " + feature.properties.mag + "</p>");
+        "</h3><hr><p><b>Date: </b>" + new Date(feature.properties.time) + "</p><p><b>Magnitude: </b>" + feature.properties.mag + "</p>" + "</p><p><b>Depth: </b>" + feature.geometry.coordinates[2] + "</p>");
     }
 
   // Create a GeoJSON layer containing the features array on the earthquakeData object
@@ -82,23 +83,24 @@ function createMap(earthquakes) {
   L.control.layers(baseMaps, overlayMaps, {
     collapsed: false
   }).addTo(myMap);
+
 }
 
-function getColor(magnitude) {
+function getColor(depth) {
     // Conditionals for magnitude
-    if (magnitude >= 5) {
+    if (depth >= 5) {
       return "#FF5F65";
     }
-    else if (magnitude >= 4) {
+    else if (depth >= 4) {
       return "#FCA35D";
     }
-    else if (magnitude >= 3) {
+    else if (depth>= 3) {
      return "#FDB72A";
     }
-    else if (magnitude >= 2) {
+    else if (depth >= 2) {
       return "#F7DB11";
     }
-    else if (magnitude >= 1) {
+    else if (depth >= 1) {
       return "#DCF400";
     }
     else {
@@ -109,3 +111,5 @@ function getColor(magnitude) {
 function getRadius(magnitude) {
     return magnitude ** 2;
   }
+
+
