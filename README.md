@@ -4,7 +4,7 @@
 
 <p>EarthQuake Data from March 16th to April 16th 2021 in the United States </p>
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text]("https://i.ibb.co/rc9xwrz/Screen-Shot-2021-04-20-at-12-33-57-PM.png")
 
 <br>
 
