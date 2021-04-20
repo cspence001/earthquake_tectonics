@@ -10,14 +10,18 @@ This Map displays Earthquake Data in United States for the dates between March 1
 <img src="https://github.com/cspence001/leaflet_challenge/blob/main/Leaflet_Map1/img/Screen%20Shot%202021-04-20%20at%2012.33.57%20PM.png" width="50%" height="50%">
 
 <img src="https://github.com/cspence001/leaflet_challenge/blob/main/Leaflet_Map1/img/Screen%20Shot%202021-04-20%20at%2012.34.14%20PM.png" width="50%" height="50%">
+
+<img src="https://github.com/cspence001/leaflet_challenge/blob/main/Leaflet_Map1/img/Screen%20Shot%202021-04-20%20at%202.17.34%20PM.png" width="50%" height="50%">
 <br>
 
 <h4>Leaflet - Map 2 </h4> <p>EarthQuake Data for the Last 7 Days Internationally, Tectonic Plate OverLay </p>
 
 <p>This Map displays Earthquake Data internationally for the last 7 days. The data markers for each earthquake during this time reflects the magnitude of the earthquake by it's size, and depth of the earthquake by color. Upon clicking each marker, is a pop-up diplay that includes exact location, date and time of earthquake, magnitude and depth. Included on this map is a Tectonic Plate Overlay that illustrates the relationship between the tectonic plates and seismic activity. Also included as an option for geographic reference is a satelite basemap display.</p>
 <br>
-<img src="https://github.com/cspence001/leaflet_challenge/blob/main/Leaflet_Map2/img/Screen%20Shot%202021-04-20%20at%2012.31.46%20PM.png" width="50%" height="50%">
 
+<img src="https://github.com/cspence001/leaflet_challenge/blob/main/Leaflet_Map2/img/Screen%20Shot%202021-04-20%20at%2012.31.46%20PM.png" width="50%" height="50%">
+<img src="https://github.com/cspence001/leaflet_challenge/blob/main/Leaflet_Map2/img/Screen%20Shot%202021-04-20%20at%202.16.17%20PM.png" width="50%" height="50%">
+<p>Zoomed with Depth Legend</p>
 <br>
 <h6>Data Sources: </h6> 
 
