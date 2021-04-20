@@ -84,32 +84,50 @@ function createMap(earthquakes) {
     collapsed: false
   }).addTo(myMap);
 
+
+
+
+  var legend = L.control({
+    position: 'bottomright'
+});
+
+/* Adding on the legend based off the color scheme we have */
+legend.onAdd = function (color) {
+    var div = L.DomUtil.create('div', 'info legend');
+    depth = ["-10-10", "10-30", "30-50", "50-70", "70-90", "90+"];
+    colors = ["#A3F600", "#DCF400", "#F7DB11", "#FDB72A", "#FCA35D", "#FF5F65"]
+    div.innerHTML += "<h3>Depth</h3>"
+    for (var i = 0; i < depth.length; i++) {
+        div.innerHTML += '<i style="background:' + colors[i] + '"></i>' + depth[i] + '<br>';
+    }
+    return div;
+}
+legend.addTo(myMap);
 }
 
 function getColor(depth) {
     // Conditionals for magnitude
-    if (depth >= 5) {
+    if (depth >= 90) {
       return "#FF5F65";
     }
-    else if (depth >= 4) {
+    else if (depth >= 70) {
       return "#FCA35D";
     }
-    else if (depth>= 3) {
+    else if (depth>= 50) {
      return "#FDB72A";
     }
-    else if (depth >= 2) {
+    else if (depth >= 30) {
       return "#F7DB11";
     }
-    else if (depth >= 1) {
+    else if (depth >= 10) {
       return "#DCF400";
     }
     else {
       return "#A3F600";
     }
-};
-
+  
+  }
 function getRadius(magnitude) {
     return magnitude ** 2;
   }
 
-  
