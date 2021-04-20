@@ -4,7 +4,7 @@
 
 <p>EarthQuake Data from March 16th to April 16th 2021 in the United States </p>
 
-![alt text](https://github.com/cspence001/leaflet_challenge/blob/main/Leaflet_Map1/img/Screen%20Shot%202021-04-20%20at%2012.34.14%20PM.png)
+![alt text](https://github.com/cspence001/leaflet_challenge/blob/main/Leaflet_Map1/img/Screen%20Shot%202021-04-20%20at%2012.34.14%20PM.png){:height="50%" width="50%"}
 
 <br>
 
