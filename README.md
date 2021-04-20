@@ -19,7 +19,7 @@ This Map displays Earthquake Data in United States for the dates between March 1
 
 <img src="https://github.com/cspence001/leaflet_challenge/blob/main/Leaflet_Map2/img/Screen%20Shot%202021-04-20%20at%2012.31.46%20PM.png" width="50%" height="50%">
 <img src="https://github.com/cspence001/leaflet_challenge/blob/main/Leaflet_Map2/img/Screen%20Shot%202021-04-20%20at%202.16.17%20PM.png" width="50%" height="50%">
-<p>Zoomed Map with Legend</p>
+<p>Zoomed with Depth Legend</p>
 <br>
 <h6>Data Sources: </h6> 
 
