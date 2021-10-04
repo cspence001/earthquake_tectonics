@@ -7,9 +7,9 @@
 This Map displays Earthquake Data in United States for the dates between March 16th 2021 and April 16, 2021. The data markers for each of the 6,000 earthquakes during that time reflect the magnitude of the earthquake by it's size, and depth of the earthquake by color. Upon clicking each marker, is a pop-up diplay that includes exact location, date and time of earthquake, magnitude and depth. 
  </p>
 
-<img src="https://github.com/cspence001/earthquake_tectonics/blob/main/img/Screen%20Shot%202021-04-20%20at%202.17.34%20PM.png" width="50%" height="50%">
+<img src="https://github.com/cspence001/earthquake_tectonics/blob/main/Leaflet_Map_alt/img/Screen%20Shot%202021-04-20%20at%202.17.34%20PM.png" width="50%" height="50%">
 
-<img src="https://github.com/cspence001/earthquake_tectonics/blob/main/img/Screen%20Shot%202021-04-20%20at%202.24.16%20PM.png" width="50%" height="50%">
+<img src="https://github.com/cspence001/earthquake_tectonics/blob/main/Leaflet_Map_alt/img/Screen%20Shot%202021-04-20%20at%202.24.16%20PM.png" width="50%" height="50%">
 <br>
 
 <h4>Leaflet - Map 2 </h4> <p>EarthQuake Data for the Last 7 Days Internationally, Tectonic Plate OverLay </p>
