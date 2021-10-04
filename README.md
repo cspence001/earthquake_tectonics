@@ -9,7 +9,7 @@ This Map displays Earthquake Data in United States for the dates between March 1
 
 <img src="https://github.com/cspence001/earthquake_tectonics/blob/main/Leaflet_Map_alt/img/Screen%20Shot%202021-04-20%20at%202.17.34%20PM.png" width="50%" height="50%">
 
-<img src="https://github.com/cspence001/earthquake_tectonics/blob/main/Leaflet_Map_alt/img/Screen%20Shot%202021-04-20%20at%202.24.16%20PM.png" width="50%" height="50%">
+<img src="https://github.com/cspence001/earthquake_tectonics/Leaflet_Map_alt/img/Screen%20Shot%202021-04-20%20at%202.24.16%20PM.png" width="50%" height="50%">
 <br>
 
 <h4>Leaflet - Map 2 </h4> <p>EarthQuake Data for the Last 7 Days Internationally, Tectonic Plate OverLay </p>
