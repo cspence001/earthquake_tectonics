@@ -7,6 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Earthquakes / Tectonic Plates</title>
 
+  <!-- BootStrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
@@ -17,7 +19,16 @@
 </head>
 
 <body>
-
+  
+  <div class="row">
+    <div class="col-md-2">
+      <div class="well well-sm">
+        <a href= "{{url_for('index')}}"><p>Monthly Earthquakes</p></a>
+        <a href= "{{url_for('index2')}}"><p>Earthquakes Last 7 Days</p></a>
+      </div>
+    </div>
+  </div>
+  </div>
   <!-- The div that holds our map -->
   <div id="map"></div>
 

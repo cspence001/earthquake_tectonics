@@ -9,6 +9,25 @@ html {
   height: 100%;
 }
 
+.col-md-2{
+  position: absolute;
+  height: 90px;
+  width: 200px;
+  z-index: 2;
+  margin-left: 60px;
+  padding: 10px;
+  background-color: rgba(0,0,0,.25);
+  font: 12px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+} 
+
+.well {
+  width: 180px;
+}
+
+#map{
+  z-index:0;
+}
 
 /* CSS from the Leaflet-Choropleth documentation */
 .legend {
