@@ -1,7 +1,7 @@
 # earthquake_tectonics
 
 <h4>Leaflet - Map 1 </h4> 
-<p>EarthQuake Data from March 16th to April 16th 2021 in the United States </p>
+<p>EarthQuake Data for the last 30 Days Internationally</p>
 <br>
 <p>
 This Map displays Earthquake Data in United States for the dates between March 16th 2021 and April 16, 2021. The data markers for each of the 6,000 earthquakes during that time reflect the magnitude of the earthquake by it's size, and depth of the earthquake by color. Upon clicking each marker, is a pop-up diplay that includes exact location, date and time of earthquake, magnitude and depth. 
