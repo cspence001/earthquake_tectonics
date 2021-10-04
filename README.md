@@ -1,4 +1,4 @@
-# leaflet_challenge
+# earthquake_tectonics
 
 <h4>Leaflet - Map 1 </h4> 
 <p>EarthQuake Data from March 16th to April 16th 2021 in the United States </p>
