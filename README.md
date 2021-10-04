@@ -2,7 +2,6 @@
 
 <h4>Leaflet - Map 1 </h4> 
 <p>EarthQuake Data for the last 30 Days Internationally</p>
-<br>
 <p>
 This Map displays Earthquake Data in United States for the last 30 days. The data markers for each of the earthquakes during the time period reflect the magnitude of the earthquake by it's size, and depth of the earthquake by color. Upon clicking each marker, is a pop-up diplay that includes exact location, date and time, magnitude, and depth of the earthquake. 
  </p>
