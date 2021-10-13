@@ -21,6 +21,7 @@ Included on this map is a Tectonic Plate Overlay that illustrates the relationsh
 <img src="https://github.com/cspence001/earthquake_tectonics/blob/main/img/Screen%20Shot%202021-04-20%20at%202.16.17%20PM.png" width="50%" height="50%">
 <p>Zoomed with Depth Legend</p>
 <br>
+<a href="https://earthquake-tectonics.herokuapp.com/">application deployment</a>
 <h6>Data Sources: </h6> 
 
 <a href="https://github.com/fraxen/tectonicplates">Tectonic Plate Boundaries</a>
