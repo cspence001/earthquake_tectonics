@@ -27,9 +27,6 @@ Included on this map is a Tectonic Plate Overlay that illustrates the relationsh
 <a href="https://github.com/fraxen/tectonicplates">Tectonic Plate Boundaries</a>
 
 <a href="https://earthquake.usgs.gov/">Earthquake Data</a>
-
-
-<h6>File Contents: </h6> Two Folders: Leaflet - Map 1, Leaflet - Map 2, containing the files for 
 <br>
 
 <h6>Languages/Components/Libraries: </h6> HTML, CSS, Javascript, Python, Bootstrap Components, Leaflet, MapBox <br>
